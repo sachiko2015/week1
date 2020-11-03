@@ -1,20 +1,26 @@
 {
-  
-  "headers": {
-    "/*": {
-      "X-Author": "sachiko",
-      "Access-Control-Allow-Origin": "*",
-      "Content-Type": "text/plain; charset=UTF-8"
-    }
-  },
-  
   "routes": {
     "/": "index.html",
     "/login/**": "/index.html",
     "/sample/**": "/function.html"
   },
-  
+  "headers": {
+    "/*": {
+      "X-Author": "sachiko",
+      "Access-Control-Allow-Origin": "*",
+      "Content-Type": "text/plain; charset=UTF-8"
+    },
+    "/login/**": {
+      "X-Author": "sachiko",
+      "Access-Control-Allow-Origin": "*",
+      "Content-Type": "text/plain; charset=UTF-8"
+    },
+    "/sample/**": {
+      "X-Author": "sachiko",
+      "Access-Control-Allow-Origin": "*",
+      "Content-Type": "text/plain; charset=UTF-8"
+    }
+  },
   "https_only": true,
-  
 }
 
