@@ -1,10 +1,17 @@
 {
+  "routes": {
+    "/": "index.html",
+    "/login/**": "index.html",
+    "/sample/**": "function.txt"
+  },
+  
   "headers": {
     "/*": {
       "X-Author": "sachiko",
       "Access-Control-Allow-Origin": "*"
-     
+      "Content-Type": "text/plain; charset=UTF-8 "
     }
-  }
+  }  
   
 }
+
