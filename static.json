@@ -4,7 +4,7 @@
     "/login/**": "/index.html",
     "/sample/**": "/function.html"
   },
-  
+  "https_only": true,
   "headers": {
     "/*": {
       "X-Author": "sachiko",
