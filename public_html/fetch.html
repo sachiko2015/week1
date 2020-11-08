@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <input type="text" id="inp">
+  <button id="bt">Click</button>
+  <script>
+    document.querySelector('#bt').addEventListener('click', function(){
+      let trg = document.querySelector('#inp')
+      let url = trg.value;
+
+      fetch(url)
+        .then(response => response.text())
+        .then(text => trg.value = text)
+    })
+  </script>
+</body>
+</html>
