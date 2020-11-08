@@ -2,7 +2,8 @@
   "routes": {
     "/": "index.html",
     "/login/": "/index.html",
-    "/sample/": "/function.html"
+    "/sample/": "/function.html",
+    "/promise/": "/promise.txt"
   },
   "headers": {
     "/*": {
@@ -16,6 +17,11 @@
       "Content-Type": "text/plain; charset=UTF-8"
     },
     "/sample/": {
+      "X-Author": "sachiko",
+      "Access-Control-Allow-Origin": "*",
+      "Content-Type": "text/plain; charset=UTF-8"
+    },
+    "/promise/": {
       "X-Author": "sachiko",
       "Access-Control-Allow-Origin": "*",
       "Content-Type": "text/plain; charset=UTF-8"
