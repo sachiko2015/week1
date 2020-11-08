@@ -3,7 +3,8 @@
     "/": "index.html",
     "/login/": "/index.html",
     "/sample/": "/function.html",
-    "/promise/": "/promise.txt"
+    "/promise/": "/promise.txt",
+    "/fetch/": "/fetch.html"
   },
   "headers": {
     "/*": {
@@ -25,6 +26,11 @@
       "X-Author": "sachiko",
       "Access-Control-Allow-Origin": "*",
       "Content-Type": "text/plain; charset=UTF-8"
+    },
+    "/fetch/": {
+      "X-Author": "sachiko",
+      "Access-Control-Allow-Origin": "*",
+      "Content-Type": "text/html; charset=UTF-8"
     }
   }
   
